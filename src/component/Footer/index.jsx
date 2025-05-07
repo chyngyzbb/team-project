@@ -11,11 +11,11 @@ const Footer = () => {
       <div className="container">
         <div className="footer">
           <div className="logo">
-            <img src={logo} alt="" />
+            <img className="logo-img " src={logo} alt="" />
             <div className="logo-text">
-              <p>© Все права защищены</p>
-              <p>Политика конфиденциальности</p>
-              <p>Публичная оферта</p>
+              <p className="logo-p">© Все права защищены</p>
+              <p className="logo-p">Политика конфиденциальности</p>
+              <p className="logo-p">Публичная оферта</p>
             </div>
           </div>
           <div className="nav-bar">
@@ -23,10 +23,10 @@ const Footer = () => {
             <div className="shop">
             <NavLink to={"/shop"}>Магазин</NavLink>
             <div className="menu">
-                <Link>Пальто</Link>
-                <Link>Свитшоты</Link>
-                <Link>Кардиганы</Link>
-                <Link>Толстовки</Link>
+                <Link className="category">Пальто</Link>
+                <Link className="category">Свитшоты</Link>
+                <Link className="category">Кардиганы</Link>
+                <Link className="category">Толстовки</Link>
             </div>
             </div>
             <NavLink to={"/brend"}>О бренде</NavLink>
@@ -34,8 +34,8 @@ const Footer = () => {
           </div>
           <div className="email">
             <div className="email-tel">
-                <p>+7 (495) 823-54-12</p>
-                <p>hello@womazing.com</p>
+                <p className="tel">+7 (495) 823-54-12</p>
+                <p className="tel">hello@womazing.com</p>
             </div>
             <img src={sotset} alt="" />
             <img src={visa} alt="" />
