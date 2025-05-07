@@ -22,11 +22,11 @@ getProduct()
     return (
         <div id='shop'>
             <div className="container">
-                {
+                {/* {
                     product.map((el,idx)=>(
                        <ProductCard el={el} key={idx}/>
                     ))
-                }
+                } */}
             </div>
             
         </div>
