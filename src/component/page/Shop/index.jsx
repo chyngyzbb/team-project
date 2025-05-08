@@ -1,9 +1,9 @@
 import React, { useEffect } from "react";
 import "./Shop.scss";
 import axios from "axios";
-import ProductCard from "../../Main/ProductCard";
 import text from "./img/text.svg";
 import left from "./img/left.svg";
+import ProductCard from '../../ProductCard'
 
 const Shop = () => {
   // https://680dcc8ec47cb8074d913800.mockapi.io/products
